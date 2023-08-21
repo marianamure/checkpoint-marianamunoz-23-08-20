@@ -4,7 +4,6 @@ cd checkpoint-marianamunoz-23-08-20
 touch main.js index.html
 git add .
 git status
-git commit - m "commit 1 marianaMunoz"
 git commit -m "commit 01 marianaMunoz"
 git push origin main
 git branch feature
@@ -29,5 +28,9 @@ mv main.js resumenHardware.txt
 mv index.html resumenSoftware.txt
 git add .
 git commit -m "commit 03 marianaMunoz"
+git push origin main
+history
+git add .
+git commit -m "commit 04 marianaMunoz"
 git push origin main
 history
