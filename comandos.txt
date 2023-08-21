@@ -1,0 +1,33 @@
+cd desktop
+Git clone https://github.com/marianamure/checkpoint-marianamunoz-23-08-20.git
+cd checkpoint-marianamunoz-23-08-20
+touch main.js index.html
+git add .
+git status
+git commit - m "commit 1 marianaMunoz"
+git commit -m "commit 01 marianaMunoz"
+git push origin main
+git branch feature
+git branch
+git checkout feature
+git branch
+mkdir software hardware seguridadInformatica
+cd software
+touch resumen.txt
+cd ..
+cd hardware
+touch resumen.txt
+cd ..
+cd seguridadInformatica
+touch resumen.txt
+cd ..
+git add .
+git commit -m "commit 02 marianaMunoz"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+git add .
+git commit -m "commit 03 marianaMunoz"
+git push origin main
+history
